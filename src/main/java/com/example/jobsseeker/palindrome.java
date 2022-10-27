@@ -5,7 +5,7 @@ public class palindrome {
 
 		  public static void main(String[] args) {
 
-		    String str = "Radar", reverseStr = "";
+		    String str = "MOM", reverseStr = "";
 		    
 		    int strLength = str.length();
 		    
@@ -15,7 +15,7 @@ public class palindrome {
 		    }
 
 		    if (str.toLowerCase().equals(reverseStr.toLowerCase())) {
-		      System.out.println(str + " is a Palindrome");
+		      System.out.println(str + "  it is a Palindrome");
 		    }
 		    else {
 		      System.out.println(str + " it is not a Palindrome");
